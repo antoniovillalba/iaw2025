@@ -4,21 +4,20 @@
         <?php
             $name = "Antonio Manuel Prieto Villalba";
             echo "Hola soy " . $name . " y estudio en el instituto IES Poligono Sur";
-            echo "<br>";
-            echo "<br>";
+            echo "<br><br>";
             var_dump($name);
-            echo "<br>";
-            echo "<br>";
+            echo "<br><br>";
 
             $hab = 14000;
             echo "Soy de Estepa la cual tiene " . $hab;
-            echo "<br>";
+            echo "<br><br>";
             var_dump($hab);
-            echo "<br>";
+            echo "<br><br>";
 
             $soy = true;
-            echo "<br>";
-            echo 
+            echo "¿Soy de estepa? " . ($soy ? 'Sí' : 'No');
+            echo "<br><br>";
+            var_dump($soy);
         ?>
     </body>
 </html>
