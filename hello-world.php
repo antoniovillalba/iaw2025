@@ -2,8 +2,21 @@
 <html lang="esp">
     <body>
         <?php
-            define("SALUDO","Bienvenido al IES Poligono Sur");
-            echo SALUDO;
+            $name = "Antonio Manuel Prieto Villalba";
+            echo "Hola soy " . $name . " y estudio en el instituto IES Poligono Sur";
+            echo "<br>";
+            var_dump($name);
+            echo "<br>";
+
+            $hab = 14000;
+            echo "Soy de Estepa la cual tiene " . $hab;
+            echo "<br>";
+            var_dump($hab);
+            echo "<br>";
+
+            $soy = true;
+            echo "<br>";
+            echo $soy;
         ?>
     </body>
 </html>
