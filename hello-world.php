@@ -2,7 +2,7 @@
 <html lang="esp">
     <body>
         <?php
-            print("Hola mundo");
+            print("Hello World");
         ?>
     </body>
 </html>
