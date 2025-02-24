@@ -5,7 +5,9 @@
             $name = "Antonio Manuel Prieto Villalba";
             echo "Hola soy " . $name . " y estudio en el instituto IES Poligono Sur";
             echo "<br>";
+            echo "<br>";
             var_dump($name);
+            echo "<br>";
             echo "<br>";
 
             $hab = 14000;
@@ -16,7 +18,7 @@
 
             $soy = true;
             echo "<br>";
-            echo $soy;
+            echo 
         ?>
     </body>
 </html>
