@@ -15,7 +15,7 @@
             echo "<br><br>";
 
             $soy = true;
-            echo "¿Soy de estepa? " . ($soy ? 'Sí' : 'No');
+            echo "¿Soy de estepa?" . ($soy ? 'Sí' : 'No');
             echo "<br><br>";
             var_dump($soy);
         ?>
