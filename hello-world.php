@@ -2,7 +2,8 @@
 <html lang="esp">
     <body>
         <?php
-            print("Hello World! from IES Poligono Sur");
+            define("SALUDO","Bienvenido al IES Poligono Sur");
+            echo SALUDO;
         ?>
     </body>
 </html>
