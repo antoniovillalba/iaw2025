@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Panadería (POST)</title>
+</head>
+<body>
+    <h2>Formulario de Pedido (Método POST)</h2>
+    <form action="pedido.php" method="POST">
+        Nombre: <input type="text" name="nombre" required><br>
+
+        Baguettes: <input type="number" name="baguettes" min="0" value="0"><br>
+
+        Bollos: <input type="number" name="bollos" min="0" value="0"><br>
+
+        Panes de Sándwich: <input type="number" name="sandwich" min="0" value="0"><br>
+
+        <input type="submit" value="Hacer Pedido">
+    </form>
+</body>
+</html>
